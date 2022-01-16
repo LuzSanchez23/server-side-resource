@@ -1,7 +1,7 @@
 //Weather api
 
-// const apiURL= "//api.openweathermap.org/data/2.5/weather?id=5128581&appid=0d176e289de6d663c753fbd8f6091247&units=imperial";
-const apiURL= "//api.openweathermap.org/data/2.5/weather?zip=80239&appid=0d176e289de6d663c753fbd8f6091247&units=imperial";
+ const apiURL= "//api.openweathermap.org/data/2.5/weather?id=5128581&appid=0d176e289de6d663c753fbd8f6091247&units=imperial";
+// const apiURL= "//api.openweathermap.org/data/2.5/weather?zip=80239&appid=0d176e289de6d663c753fbd8f6091247&units=imperial";
 
 fetch (apiURL)
 .then((response) => response.json())
